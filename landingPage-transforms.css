@@ -1,0 +1,12 @@
+.contact {
+    transition: transform 0.5s ease;
+}
+
+.contact:hover {
+    transform: scale(2);
+
+}
+
+.contact:active {
+    font-size: 50px;
+}
