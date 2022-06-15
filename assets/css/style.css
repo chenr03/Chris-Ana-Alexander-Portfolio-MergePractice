@@ -466,5 +466,14 @@ h2 + .profile-picture {
 		font-size: initial;
 	}
 }
+.portfolio{
+    transform: scaleY(1);
+    transition: transform 0.5s ease;
+  }
+  
+  
+  .box:hover .portfolio{
+    transform: scaleY(3);
+  }
 
 /*closes STATE*/
